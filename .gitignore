@@ -1,2 +1,13 @@
 .env
-node_modules
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore Gitpod configuration
+.gitpod.yml
+
+# Ignore lock file
+package-lock.json
